@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/selectionCardCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:contentPadding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chiText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/pinyin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/playBtn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:drawableTop="@drawable/ic_google_controller_black_24dp"
+                android:text="@string/play_btn_txt"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/flashCardBtn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/ic_cards_outline_black_24dp"
+                android:text="@string/flash_cards_btn_txt" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

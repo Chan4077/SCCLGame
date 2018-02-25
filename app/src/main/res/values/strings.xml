@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">SCCLGame</string>
-    <string name="play_btn_txt">Play</string>
+    <string name="play_btn_txt">Play Game</string>
+    <string name="flash_cards_btn_txt">Flash Cards</string>
+    <string name="share_intent_txt">Share with&#8230;</string>
+    <string name="activity_selection_card_label">Select a flashcard</string>
+    <string name="activity_topic_card_label">Topic Cards</string>
+    <string name="activity_flash_card_game_label">Flash Card game</string>
 </resources>
