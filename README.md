@@ -1,7 +1,6 @@
 # SCCLGame
 
 > **NO LONGER MAINTAINED**
-
 > This project is no longer maintained. However, future issues and PRs to the project are still welcome.
 
 ---
